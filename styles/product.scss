@@ -1,6 +1,5 @@
 @import "home";
 
-
 .product-list {
   display: grid;
   border-bottom: $borderline;
@@ -8,7 +7,7 @@
 
   .product-item-col-grid {
     display: grid;
-    grid-template-columns: minmax(480px, 2fr) 2fr;
+    grid-template-columns: auto auto;
     gap: 1rem;
   }
 
@@ -45,6 +44,9 @@
     border: 0;
     margin-top: 1rem;
     cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    
+    @include buttonActive();
   }
 
   img {
@@ -56,12 +58,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     > small {
       color: $text-color-light;
       padding-top: 2rem;
       font-weight: 400;
     }
   }
-  
 }

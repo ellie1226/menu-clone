@@ -55,12 +55,12 @@ function Product({ products, addToCart }) {
     <div className="product-list">
       {getCategories(categories)}
       <div className="product-disclaimer">
-      <small>Prices on this menu are set directly by the Merchant.</small>
-      <small>
-        2,000 calories a day is used for general nutrition advice, but calorie
-        needs vary. Additional nutrition information available here
-      </small>
-      <small>Prices may differ between Delivery and Pickup.</small>
+        <small>Prices on this menu are set directly by the Merchant.</small>
+        <small>
+          2,000 calories a day is used for general nutrition advice, but calorie
+          needs vary. Additional nutrition information available here
+        </small>
+        <small>Prices may differ between Delivery and Pickup.</small>
       </div>
     </div>
   );
