@@ -17,7 +17,7 @@ function Footer() {
       <a href="#">Notice At Collection</a>
       <a href="#">Do Not Sell My Personal Information (California)</a>
       <a href="#">Delivery Locations</a>
-      <span>© 2021 DoorDspansh</span>
+      <span>© 2021 Doordash Dummy Clone</span>
     </div>
   );
 }
