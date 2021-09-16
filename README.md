@@ -14,6 +14,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 This is a Doordash clone for specifically Mcdonald's Delivery and Takeout. It is only a static page with working cart and and checkout functionality. It can be a good starting point for a restaraunt menu page. Please feel free clone the repo and use as needed. I am not affiliated with Doordash in anyway.
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 ## Learn More
 
 To modify menu items, go to lib/data.js. Add more categories and items as needed.
